@@ -49,9 +49,9 @@ while len(all_results)>len_results:
         all_company.append(company)
         all_criterias.append(criteria)
 
-	print(all_locations)
-	print(all_company)
-	print(all_titles)
+	#print(all_locations)
+	#print(all_company)
+	#print(all_titles)
 
     len_results = len(all_results)
     all_results = c.driver.find_elements_by_xpath('//*[@id="main-content"]/div/section/ul/li')
